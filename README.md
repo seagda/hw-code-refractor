@@ -16,8 +16,8 @@ This assignment displays the following characteristics
 1. accessibility guidelines followed, e.g., adding alt tags, etc. 
 1. semantic HTML elements utilized
 1. heading attributes in sequential order
-1. concise, descriptive title `DONE`
-1. links all function correctly. `DONE`
+1. concise, descriptive title
+1. links all function correctly.
 1. CSS selectors and properties follow semantic HTML structure.
 1. CSS file properly commented.
 1. Application deployed with no errors.
@@ -26,8 +26,7 @@ This assignment displays the following characteristics
 
 ## REPOSITORY
 
-View the deployed application:
-[Deployed Application](https://seagda.github.io/hw-code-refractor/)
+View the [Deployed Application](https://seagda.github.io/hw-code-refractor/)
 
 ## MOCKUP
 
