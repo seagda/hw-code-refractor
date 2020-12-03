@@ -3,41 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style-new.css">
     <title>Horiseon Social Solution Services, Inc. - a full-service digital marketing agency</title>
 </head>
 <body>
-<!-- Hopefully this will become a FIXED nav bar, because there's a lot of scrolling. -->
-    <nav>
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <div class="topNav">
-            <a href="#search-engine-optimization">Search Engine Optimization</a>
-        </div>
-        <div class="topNav">
-            <a href="#online-reputation-management">Online Reputation Management</a>
-        </div>
-        <div class="topNav">
-            <a href="#social-media-marketing">Social Media Marketing</a>
-        </div>
-    </nav>
+
 <!-- This MAIN tag contains everything except the fixed nav-bar. I would like this to be centered, if I can do both. -->
     <main>
-        <header>image will go here
+        <nav>
+            <h1>Hori<span class="seo">seo</span>n</h1>
+            <div class="topNav">
+                <ul>
+                    <li><a href="#search-engine-optimization">Search Engine Optimization</a></li>
+                    <li><a href="#online-reputation-management">Online Reputation Management</a></li>
+                    <li><a href="#social-media-marketing">Social Media Marketing</a></li>
+                </ul>
+            </div>
+        </nav>
+        <header>
         </header>
-<!-- This SECTION contains the three services in  the same styled, using flex display and an image classe for the right aligned.-->
+
+<!-- This SECTION contains the three services in the same style, using an ID for the right aligned one in the middle.-->
         <section>
             <div class="svc" id="search-engine-optimization">
-                <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+                <img src="./assets/images/search-engine-optimization.jpg" alt="Search Engine Optimization" />
                 <h2>Search Engine Optimization</h2>
                 <p>The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.</p>
             </div>
-            <div class="svc imgRT"  id="online-reputation-management">
-                <img src="./assets/images/online-reputation-management.jpg"  alt="Online Reputation Management">
+            <div class="svc "  id="online-reputation-management">
+                <img src="./assets/images/online-reputation-management.jpg"  alt="Online Reputation Management" class="imgRt">
                 <h2>Online Reputation Management</h2>
                 <p>The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.</p>
             </div>
             <div class="svc" id="social-media-marketing">
-                <img src="./assets/images/social-media-marketing.jpg" alt="Social Media Marketing Services">
+                <img src="./assets/images/social-media-marketing.jpg" alt="Social Media Marketing">
                 <h2>Social Media Marketing</h2>
                 <p>Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.</p>
             </div>
